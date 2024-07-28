@@ -32,3 +32,12 @@ of the element will be 100% of the container element width.
 
   - btn should be used for actions i.e.
     if something happens that is not related to navigation.
+
+## css trick: Trick to add border inside
+
+For normal border
+border: 3px solid #fff
+
+For inside border
+box-shadow: inset x-offset y-offset blur-radius spread-radius color
+box-shadow: inset 0 0 0 3px #fff
