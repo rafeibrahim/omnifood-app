@@ -24,3 +24,11 @@ of the element will be 100% of the container element width.
   i.e. 10px for our webpage. But now if the user increase / decrease browser
   font size our webpage will respond by increasing or decreasing the font
   size on our webpage.
+
+  ## use of btn and link (a)
+
+  - link (a) should be used for going somewher on th page or going to some
+    other page.
+
+  - btn should be used for actions i.e.
+    if something happens that is not related to navigation.
