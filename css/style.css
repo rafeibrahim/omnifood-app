@@ -480,4 +480,6 @@ it will increase its specificity to 3
 }
 
 .feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
