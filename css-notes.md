@@ -41,3 +41,8 @@ border: 3px solid #fff
 For inside border
 box-shadow: inset x-offset y-offset blur-radius spread-radius color
 box-shadow: inset 0 0 0 3px #fff
+
+# css trick: Stick last child element to the end of the container
+
+display: flex (on container)
+margin-[]: auto
