@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
+  position: relative;
 
   /* Reason: will make this header sticky
   later on and fixed height will make it
@@ -63,7 +64,23 @@ it will increase its specificity to 3
   background-color: #c5711f;
 }
 
-/* M */
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.btn-mobile-nav [name="close-outline"] {
+  display: none;
+}
 
 /***********************************/
 /* HERO SECTION */
